@@ -1,0 +1,39 @@
+ .button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;  
+} 
+.addToBag{
+  border: none;
+  border-radius: 15px;
+  width: 130px;
+  height: 40px;
+  color: black;
+  background-color: lightgreen;
+  cursor: pointer;
+  font-size: 18px;
+}
+.Wishlist{
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 20px;
+}
+.add-1-1-to-sale-item{
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  color: black;
+  background-color: lightgreen;
+  cursor: pointer;
+  font-size: 18px;
+}
+h1{
+  text-align: center;
+}

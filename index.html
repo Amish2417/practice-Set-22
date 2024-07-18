@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice-Set-Class-22</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="button-container">
+    <button class="addToBag" onclick="increase1()">Add to Bag</button>
+    <button class="Wishlist" onclick="decrease()">❤️MOVE TO WISHLIST</button>
+    <button class="add-1-1-to-sale-item" onclick="increase2()">Add 1-1 to sale item</button>
+  </div>
+  <h1></h1>
+  <script>
+    let count = 0;
+    document.querySelector("h1").innerHTML = `Your bag has ${count} items`
+
+    function increase1(){
+      count += 1;
+      document.querySelector("h1").innerHTML = `Your bag has ${count} items`
+    }
+    function increase2(){
+      count += 2;
+      document.querySelector("h1").innerHTML = `Your bag has ${count} items`
+    }
+    function decrease(){
+      if(count > 0) {
+        count -= 1;
+      document.querySelector("h1").innerHTML = `Your bag has ${count} items`
+
+      }
+      
+    }
+
+  </script>
+</body>
+</html>
